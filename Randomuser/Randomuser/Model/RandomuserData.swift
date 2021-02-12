@@ -27,12 +27,12 @@ struct Name: Decodable {
     let last: String
 }
 
-struct Location: Decodable{
+struct Location: Decodable {
     let street: Street
     let city: String
     let state: String
     let country: String
-    let postcode: String
+//    let postcode: String
 }
 
 struct Street: Decodable {
