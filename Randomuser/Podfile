@@ -10,7 +10,6 @@ target 'Randomuser' do
 end
 
 target 'RandomuserTests' do
-  inherit! :search_paths
   # Pods for testing
 	pod 'Alamofire'
 end

@@ -16,15 +16,16 @@ class RandomuserTableViewController: UITableViewController {
     var data: RandomuserData?
     
     let randomuserTableViewCell = "randomuserTableViewCell"
-    var searchActivity = UIActivityIndicatorView()
+    var searchActivity = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.large)
 
     // MARK: - View life cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.title = "USERS"
+        self.navigationItem.title = "USERS"
         
+        searchActivity.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(searchActivity)
         NSLayoutConstraint.activate([
             searchActivity.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
@@ -44,7 +45,7 @@ class RandomuserTableViewController: UITableViewController {
                 self.activityIndicator(activityIndicator: self.searchActivity, showActivityIndicator: false)
             }
         })
-//        tableView.register(RandomuserTableViewCell.self, forCellReuseIdentifier: randomuserTableViewCell)
+
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: randomuserTableViewCell)
     }
 
@@ -59,17 +60,13 @@ class RandomuserTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: randomuserTableViewCell, for: indexPath) as! RandomuserTableViewCell
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: randomuserTableViewCell, for: indexPath)
         let user = randomusers[indexPath.row]
-//        cell.userFirstName.text = user.picture.medium
-//        cell.userLastName.text = user.name.last
+
         cell.textLabel?.text = user.name.title + "  " + user.name.first + " " + user.name.last
-        
         let imageData = NSData(contentsOf: NSURL(string: "\(user.picture.large)")! as URL)
         cell.imageView?.image = UIImage(data: imageData! as Data)
-//        let imageData = NSData(contentsOf: NSURL(string: "\(user.picture.medium)")! as URL)
-//        cell.userImage.image = UIImage(data: imageData! as Data)
 
         return cell
     }

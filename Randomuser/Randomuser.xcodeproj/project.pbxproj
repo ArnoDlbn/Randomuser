@@ -17,8 +17,8 @@
 		510B037E25D68A4400B9B584 /* RandomuserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B037D25D68A4400B9B584 /* RandomuserService.swift */; };
 		5172F25525D6ACB900B64252 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F25425D6ACB900B64252 /* ErrorCases.swift */; };
 		5172F26525D6BBAE00B64252 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F26425D6BBAE00B64252 /* UIViewController.swift */; };
-		5172F27425D6BCA900B64252 /* RandomuserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */; };
 		5172F27925D6BE0E00B64252 /* RandomuserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F27825D6BE0E00B64252 /* RandomuserTableViewController.swift */; };
+		51D2115A25D840A800D4041C /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D2115925D840A800D4041C /* FakeResponseData.swift */; };
 		51EDCBAD25D7CE1B009C1BCE /* RandomuserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */; };
 		51EDCBB225D7CE35009C1BCE /* RandomuserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDCBB125D7CE35009C1BCE /* RandomuserDetailViewController.swift */; };
 		51EDCBCA25D83DDB009C1BCE /* Randomuser.json in Resources */ = {isa = PBXBuildFile; fileRef = 51EDCBC925D83DDB009C1BCE /* Randomuser.json */; };
@@ -65,8 +65,8 @@
 		510B037D25D68A4400B9B584 /* RandomuserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserService.swift; sourceTree = "<group>"; };
 		5172F25425D6ACB900B64252 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
 		5172F26425D6BBAE00B64252 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserTableViewCell.swift; sourceTree = "<group>"; };
 		5172F27825D6BE0E00B64252 /* RandomuserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserTableViewController.swift; sourceTree = "<group>"; };
+		51D2115925D840A800D4041C /* FakeResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserDetailView.swift; sourceTree = "<group>"; };
 		51EDCBB125D7CE35009C1BCE /* RandomuserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserDetailViewController.swift; sourceTree = "<group>"; };
 		51EDCBC925D83DDB009C1BCE /* Randomuser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Randomuser.json; sourceTree = "<group>"; };
@@ -173,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				51EDCBCE25D83ED3009C1BCE /* AlamofireSessionFake.swift */,
+				51D2115925D840A800D4041C /* FakeResponseData.swift */,
 				51EDCBC925D83DDB009C1BCE /* Randomuser.json */,
 				510B035325D6830000B9B584 /* RandomuserTests.swift */,
 				510B035525D6830000B9B584 /* Info.plist */,
@@ -221,7 +222,6 @@
 		5172F26A25D6BC1A00B64252 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */,
 				51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */,
 			);
 			path = View;
@@ -462,7 +462,6 @@
 				510B033D25D682FE00B9B584 /* AppDelegate.swift in Sources */,
 				510B033F25D682FE00B9B584 /* SceneDelegate.swift in Sources */,
 				5172F26525D6BBAE00B64252 /* UIViewController.swift in Sources */,
-				5172F27425D6BCA900B64252 /* RandomuserTableViewCell.swift in Sources */,
 				510B037E25D68A4400B9B584 /* RandomuserService.swift in Sources */,
 				51EDCBAD25D7CE1B009C1BCE /* RandomuserDetailView.swift in Sources */,
 				51EDCBB225D7CE35009C1BCE /* RandomuserDetailViewController.swift in Sources */,
@@ -473,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D2115A25D840A800D4041C /* FakeResponseData.swift in Sources */,
 				51EDCBCF25D83ED3009C1BCE /* AlamofireSessionFake.swift in Sources */,
 				510B035425D6830000B9B584 /* RandomuserTests.swift in Sources */,
 			);
