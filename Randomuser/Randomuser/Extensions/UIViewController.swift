@@ -22,7 +22,6 @@ extension UIViewController {
         activityIndicator.isHidden = !showActivityIndicator
         if showActivityIndicator == true {
             activityIndicator.startAnimating()
-        } else {
         }
     }
 }

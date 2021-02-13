@@ -32,7 +32,6 @@ struct Location: Decodable {
     let city: String
     let state: String
     let country: String
-//    let postcode: String
 }
 
 struct Street: Decodable {

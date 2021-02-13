@@ -1,0 +1,60 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Charles",
+                "last": "Williams"
+            },
+            "location": {
+                "street": {
+                    "number": 9394,
+                    "name": "The Green"
+                },
+                "city": "Winchester",
+                "state": "County Londonderry",
+                "country": "United Kingdom",
+                "postcode": "GI1H 8GH",
+                "coordinates": {
+                    "latitude": "11.5880",
+                    "longitude": "-10.6463"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "charles.williams@example.com",
+            "login": {
+                "uuid": "2f9fdf3a-8889-4832-a573-c455b19c8ddb",
+                "username": "lazyduck808",
+                "password": "february",
+                "salt": "HHGJGnk6",
+                "md5": "00a67c68ff453a65aae6e39d13282068",
+                "sha1": "6cc2e9abc56dc2114fae7428a606a95ca7377fe5",
+                "sha256": "b842b70b472abf413754d8cd032fa7bd45f3d66853417f45f5ff902340d8b2ba"
+            },
+            "dob": {
+                "date": "1959-11-24T11:56:43.229Z",
+                "age": 62
+            },
+            "registered": {
+                "date": "2007-12-04T20:52:06.010Z",
+                "age": 14
+            },
+            "phone": "019467 00403",
+            "cell": "0704-408-401",
+            "id": {
+                "name": "NINO",
+                "value": "ZT 97 47 35 N"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/37.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+            },
+            "nat": "GB"
+        }
+      ]
+}

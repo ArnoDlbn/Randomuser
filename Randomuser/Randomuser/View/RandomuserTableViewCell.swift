@@ -36,6 +36,25 @@ class RandomuserTableViewCell: UITableViewCell {
 //        return lbl
 //    }()
     
+//    override func reloadInputViews() {
+//        userImage = UIImageView()
+//        userImage.contentMode = .scaleAspectFit
+//        userImage.clipsToBounds = true
+//        addSubview(userImage)
+//
+//        userFirstName = UILabel()
+//        userFirstName.textColor = .black
+//        userFirstName.font = UIFont.boldSystemFont(ofSize: 16)
+//        userFirstName.textAlignment = .right
+//        addSubview(userFirstName)
+//
+//        userLastName = UILabel()
+//        userLastName.textColor = .black
+//        userLastName.font = UIFont.systemFont(ofSize: 16)
+//        userLastName.textAlignment = .left
+//        addSubview(userLastName)
+//    }
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -43,13 +62,13 @@ class RandomuserTableViewCell: UITableViewCell {
         userImage.contentMode = .scaleAspectFit
         userImage.clipsToBounds = true
         addSubview(userImage)
-        
+
         userFirstName = UILabel()
         userFirstName.textColor = .black
         userFirstName.font = UIFont.boldSystemFont(ofSize: 16)
         userFirstName.textAlignment = .right
         addSubview(userFirstName)
-        
+
         userLastName = UILabel()
         userLastName.textColor = .black
         userLastName.font = UIFont.systemFont(ofSize: 16)

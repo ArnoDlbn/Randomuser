@@ -24,7 +24,7 @@ class RandomuserService {
 
     func request(completionHandler: @escaping (RandomuserData?, Error?) -> Void) {
         
-        guard let url = URL(string: "https://randomuser.me/api/?results=20") else { return }
+        guard let url = URL(string: "https://randomuser.me/api/?results=1000") else { return }
 
         session.request(with: url) { data, error, response in
             if error != nil {

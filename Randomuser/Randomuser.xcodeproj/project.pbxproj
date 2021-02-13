@@ -10,7 +10,6 @@
 		510B033D25D682FE00B9B584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B033C25D682FE00B9B584 /* AppDelegate.swift */; };
 		510B033F25D682FE00B9B584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B033E25D682FE00B9B584 /* SceneDelegate.swift */; };
 		510B034625D6830000B9B584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510B034525D6830000B9B584 /* Assets.xcassets */; };
-		510B034925D6830000B9B584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510B034725D6830000B9B584 /* LaunchScreen.storyboard */; };
 		510B035425D6830000B9B584 /* RandomuserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B035325D6830000B9B584 /* RandomuserTests.swift */; };
 		510B035F25D6830000B9B584 /* RandomuserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B035E25D6830000B9B584 /* RandomuserUITests.swift */; };
 		510B037425D6835200B9B584 /* RandomuserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B037325D6835200B9B584 /* RandomuserData.swift */; };
@@ -20,6 +19,10 @@
 		5172F26525D6BBAE00B64252 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F26425D6BBAE00B64252 /* UIViewController.swift */; };
 		5172F27425D6BCA900B64252 /* RandomuserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */; };
 		5172F27925D6BE0E00B64252 /* RandomuserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172F27825D6BE0E00B64252 /* RandomuserTableViewController.swift */; };
+		51EDCBAD25D7CE1B009C1BCE /* RandomuserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */; };
+		51EDCBB225D7CE35009C1BCE /* RandomuserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDCBB125D7CE35009C1BCE /* RandomuserDetailViewController.swift */; };
+		51EDCBCA25D83DDB009C1BCE /* Randomuser.json in Resources */ = {isa = PBXBuildFile; fileRef = 51EDCBC925D83DDB009C1BCE /* Randomuser.json */; };
+		51EDCBCF25D83ED3009C1BCE /* AlamofireSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDCBCE25D83ED3009C1BCE /* AlamofireSessionFake.swift */; };
 		91C122D988815A80F04D367E /* libPods-RandomuserTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075CF8688FEB42E64964A44C /* libPods-RandomuserTests.a */; };
 		98B6ABD3A6F3A203AC55B432 /* libPods-RandomuserUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9460E1353528FE4E2D0E0591 /* libPods-RandomuserUITests.a */; };
 		A4EA969633FD706AF4E34156 /* Pods_Randomuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5C0DCCBC9DBFB36CD266C1 /* Pods_Randomuser.framework */; };
@@ -50,7 +53,6 @@
 		510B033C25D682FE00B9B584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		510B033E25D682FE00B9B584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		510B034525D6830000B9B584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		510B034825D6830000B9B584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		510B034A25D6830000B9B584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		510B034F25D6830000B9B584 /* RandomuserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomuserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		510B035325D6830000B9B584 /* RandomuserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserTests.swift; sourceTree = "<group>"; };
@@ -65,6 +67,10 @@
 		5172F26425D6BBAE00B64252 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserTableViewCell.swift; sourceTree = "<group>"; };
 		5172F27825D6BE0E00B64252 /* RandomuserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserTableViewController.swift; sourceTree = "<group>"; };
+		51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserDetailView.swift; sourceTree = "<group>"; };
+		51EDCBB125D7CE35009C1BCE /* RandomuserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomuserDetailViewController.swift; sourceTree = "<group>"; };
+		51EDCBC925D83DDB009C1BCE /* Randomuser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Randomuser.json; sourceTree = "<group>"; };
+		51EDCBCE25D83ED3009C1BCE /* AlamofireSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSessionFake.swift; sourceTree = "<group>"; };
 		53941C5D13242FDE43B3F673 /* Pods-RandomuserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomuserUITests.debug.xcconfig"; path = "Target Support Files/Pods-RandomuserUITests/Pods-RandomuserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A76B73DB51A1BA1B4562E8F /* Pods-Randomuser-RandomuserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randomuser-RandomuserUITests.release.xcconfig"; path = "Target Support Files/Pods-Randomuser-RandomuserUITests/Pods-Randomuser-RandomuserUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8D5C0DCCBC9DBFB36CD266C1 /* Pods_Randomuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Randomuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +164,6 @@
 				510B037225D6831E00B9B584 /* Model */,
 				5172F26925D6BBFA00B64252 /* Supporting files */,
 				5172F26A25D6BC1A00B64252 /* View */,
-				510B034725D6830000B9B584 /* LaunchScreen.storyboard */,
 				510B034A25D6830000B9B584 /* Info.plist */,
 			);
 			path = Randomuser;
@@ -167,6 +172,8 @@
 		510B035225D6830000B9B584 /* RandomuserTests */ = {
 			isa = PBXGroup;
 			children = (
+				51EDCBCE25D83ED3009C1BCE /* AlamofireSessionFake.swift */,
+				51EDCBC925D83DDB009C1BCE /* Randomuser.json */,
 				510B035325D6830000B9B584 /* RandomuserTests.swift */,
 				510B035525D6830000B9B584 /* Info.plist */,
 			);
@@ -215,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				5172F27325D6BCA900B64252 /* RandomuserTableViewCell.swift */,
+				51EDCBAC25D7CE1B009C1BCE /* RandomuserDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				5172F27825D6BE0E00B64252 /* RandomuserTableViewController.swift */,
+				51EDCBB125D7CE35009C1BCE /* RandomuserDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -334,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				510B034925D6830000B9B584 /* LaunchScreen.storyboard in Resources */,
 				510B034625D6830000B9B584 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EDCBCA25D83DDB009C1BCE /* Randomuser.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +464,8 @@
 				5172F26525D6BBAE00B64252 /* UIViewController.swift in Sources */,
 				5172F27425D6BCA900B64252 /* RandomuserTableViewCell.swift in Sources */,
 				510B037E25D68A4400B9B584 /* RandomuserService.swift in Sources */,
+				51EDCBAD25D7CE1B009C1BCE /* RandomuserDetailView.swift in Sources */,
+				51EDCBB225D7CE35009C1BCE /* RandomuserDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EDCBCF25D83ED3009C1BCE /* AlamofireSessionFake.swift in Sources */,
 				510B035425D6830000B9B584 /* RandomuserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,17 +500,6 @@
 			targetProxy = 510B035B25D6830000B9B584 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		510B034725D6830000B9B584 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				510B034825D6830000B9B584 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		510B036125D6830000B9B584 /* Debug */ = {
